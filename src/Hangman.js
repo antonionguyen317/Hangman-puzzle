@@ -75,7 +75,7 @@ class Hangman extends React.Component {
         return (
             <div className="container">
                 <h1>Hangman Game</h1>
-                <img src={this.props.images[numWrong]}></img>
+                <img src={this.props.images[numWrong]} alt="Hangman stage" />
                 <p className="Hangman-word">{isGameOver ? answer : this.guessedWord()}</p>
                 <p className={`result ${isWon ? "win" : ""} ${isGameOver ? "lose" : ""}`}>
                     {text}
