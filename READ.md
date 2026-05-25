@@ -4,7 +4,7 @@ Interactive browser-based word puzzle game inspired by classic Hangman gameplay.
 
 Live Demo
 
-https://your-demo-link.vercel.app
+[https://your-demo-link.vercel.app](https://hangman-puzzle-kappa.vercel.app/)
 
 Features:
 - Randomized word generation
